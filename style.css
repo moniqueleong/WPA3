@@ -1,0 +1,169 @@
+html {
+    background-color: #FFFFFF;
+}
+h1{
+text-align: center;
+}
+
+h2 {
+    color: #51a351;
+    font-family: "Garamond";
+font-size: 14;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Helvetica";
+    font-size: 12px;
+}
+
+div.aIndex {
+    border: 5px solid #51a351;
+text-align: center;
+box-sizing: content-box;    
+    width: 1000px;
+    height: 200px;
+margin: auto;
+padding: 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 250px;
+    background: white;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*
+<!-- Original CSS code sourced and adapted for educational purposes: https://www.w3schools.com/css/css_navbar.asp -->*/
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+footer {
+position: fixed;
+   left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+div.foot {
+   left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    margin: auto;
+    width: 315px;
+    padding: 10px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
