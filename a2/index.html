@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  	<link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 2</title>
+    
+    <!-- Keep wireframe.css for debugging, add your css to style.css -->
+    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
+    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+    <script src='../wireframe.js'></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+			<img src="Rabbit-logo.png" alt="logo" width="200">
+			<h1 id="shopname"> B-rabbitty Clothing </h1>	
+	  </div>
+    </header>
+
+    <nav>	
+      <div class="navTab">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+	  </div>
+    </nav>
+			<br>
+    <main>
+         <article id='Website Under Construction'>
+		 <div class="pHome">
+		<p>
+		<p class="greenP"> About </p>
+			We sell onesies because they're cute, fuzzy, and warm. Also popular as gifts, with couples. Grab one for you and your partner now.</p>
+			<p>Our shop's name is fun, just like our products, and we chose rabbit, because they're the developers favourite animal.		
+		</p>
+		</div>
+		 
+		<br>
+		
+		<div class="pHome">
+	
+		<p>
+		<p class="greenP"> Contact </p>
+		Phone: (03) 9999 7722
+		</p>
+		<p>
+		Email: s3724131@student.rmit.edu.au
+		</p>
+			</div>
+		</article>
+    </main>
+		<br>
+    <footer>
+	
+      <div>&copy;<script>
+        document.write(new Date().getFullYear());
+      </script> Yousef Fares, s3724131 <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+      <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
+      <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
+    </footer>
+
+  </body>
+</html>
