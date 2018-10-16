@@ -165,5 +165,36 @@ img {
         opacity: 1
     }
 }
+.cartcssIMG {
+	width:100px; 
+display:inline-block;
+	float:left;
+	margin-right:10px;
+}
+.textCart{
+	font-size:15px;
+	padding:0px;
+	margin:0px;
+	
+}
+.shopButton{
+    background-color: #309954;
+    color: white;
+    padding: 5px;
+    margin: 8px ;
+    border: none;
+    cursor: pointer;
+	float: right;
+    width: 10%;
+	display:block;
+
+}
+.gallery2{
+    color: black;
+	display:inline-block;
+	text-align:left;
+	padding-top:10px;
+	width: 100%
+}
 
 

@@ -20,16 +20,28 @@
     </header>
 
     <nav>
-        <li><a href="https://titan.csit.rmit.edu.au/~s3722811/wp/a2/index.php">Home</a></li>
-        <li><a href="https://titan.csit.rmit.edu.au/~s3722811/wp/a2/login.php">Log in</a></li>
-        <li><a href="https://titan.csit.rmit.edu.au/~s3722811/wp/a2/products.php">Products</a></li>
-        <li><a href="https://titan.csit.rmit.edu.au/~s3722811/wp/a2/product.php">Product</a></li>
-        <li style="float:right"><a href="https://titan.csit.rmit.edu.au/~s3722811/wp/a2/cart.php">Cart</a></li>
+             <li><a href="index.php">Home</a></li>
+        <li><a href="login.php">Log in</a></li>
+        <li><a href="products.php">Products</a></li>
+        <li><a href="product.php">Product</a></li>
+        <li style="float:right"><a href="cart.php">Cart</a></li>
 
     </nav>
 
     <main>
-        <h2> Cart </h2>
+	
+	<div class="gallery2">
+             <img class="cartcssIMG" src="../../media/roses.png" alt="Roses" width="100">
+			 <p class="fontCarty">gtihjdasihdisau fsaof sahfuo sahifo safiao</p>
+			<label for="name">Quantity</label>
+        <input type="number" min="1" name="qty" id="rabbitQTY" value="1">
+					<br>
+					<label> price </label>
+
+        </div>
+		<button type="submit" class="shopButton">Go to checkout</button>
+
+
 
 
     </main>
