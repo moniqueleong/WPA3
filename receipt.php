@@ -33,10 +33,29 @@
         <h2> Receipt </h2>
     </main>
 	<body>
-	
-   
+	Purchase Date: 
+    
+    <br><br> Name:
+    
+    <br><br> Address:
+    
+    <br><br>Subtotal:
+    
+    <br><br> Mobile:
+    
+    <br><br> Email:
+    
+    <br><br> ID:
+    
+    <br><br> OID:
+    
+    <br><br> Quantity:
+    
+    <br><br> Unit Price:
+    
+    <br><br> Subtotal:
+    
 	  </body>
-
     <footer>
         <div>&copy;
             <script>
